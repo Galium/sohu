@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+	}
+body{
+	margin:0 auto;
+	border:1px solid green;
+	width:950px;
+	height:800px;
+	font-size:12px;
+}
+
+.top{
+	width:950px;
+	height:25px;
+	background:#F3F8FE;
+}
+/*“我的搜狐span”*/
+.loginpicture{
+	width:70px;
+	height:22px;
+	float:left;
+}
+/*“我的搜狐图片”*/
+.loginpicture  img{
+	width:70px;
+	height:24px;
+	margin-top:2px;
+}
+/*表单*/
+.loginform{
+	width:280px;
+	height:22px;
+	float:left;
+}
+
+.form input{
+	float:left;
+}
+.form a img{
+	height:20px;
+	width:40px;
+	margin-top:2px;
+	float:left;
+}
+/*中间部分*/	
+.setindex{
+	width:220px;
+	height:16px;
+	float:left;
+	margin-left:0px;
+	margin-top:6px;
+}
+.setindex a{
+	margin-left:15px;
+	text-decoration:none;
+	color:black;
+}
+.setindex a:hover{
+	text-decoration:underline;
+}
+/*"手机看新闻图片"*/
+.myhref{
+	float:right;
+	margin-right:5px;
+	margin-top:3px;
+}
+
+
+/*我的logo*/
+.logo{
+	height:82px;
+	width:138px;
+	background:silver;
+	float:left;
+	margin-top:3px;
+}
+.logo img{
+	height:82px;
+	width:138px;
+}
+/*导航*/
+.navi{
+	height:80px;
+	width:800px;
+	border:1px solid black;
+	float:left;
+	margin-top:3px;
+	margin-left:8px;
+}
+.nav1{
+	height:26px;
+	width:800px;
+	border-bottom:1px solid black;
+	background:#FFEA8E;
+	float:left;
+	padding:0px;
+}
+.ul1 {
+	padding:0;
+	list-style-type:none;
+	
+}
+.ul1 li{
+	margin:6px ;
+}
+
+.ul1 li a{
+	float:left;
+	margin-left:6.8px;
+	color:black;
+	text-decoration:none;
+}
+.ul1 li a:hover{
+	text-decoration:underline;
+}
+/* 已标红的选项*/
+#ul1-1 a {
+	color:#CC0000;
+}
+	
+
+#nav2{
+	height:53px;
+	width:800px;
+	background:#FFFCDA;
+	float:left;
+}
+.ul2{
+	list-style-type:none;
+	float:left;
+	padding-left:12px;
+}
+.ul2 li{
+	float:left;
+	padding-top:7px;
+	
+}
+.ul2 li a{
+	margin-right:7.5px;
+	color:black;
+	text-decoration:none;
+}
+.ul2 li a:hover{
+	text-decoration:underline;
+}
+/*对于英文字体的样式以及大小进行调整*/
+.ul2-2{
+	font-size:12px;
+	font-family:微软雅黑;
+}
+.ul3{
+	list-style-type:none;
+	float:left;
+	padding-left:12px;
+}
+.ul3 li{
+	float:left;
+	padding-top:7px;
+	
+}
+.ul3 li a{
+	margin-right:12.9px;
+	color:black;
+	text-decoration:none;
+}
+.ul3 li a:hover{
+	text-decoration:underline;
+}
+	
+
+
+
+/*总体广告div*/
+.adall{
+	height:211px;
+	width:950px;
+	margin-top:3px;
+	float:left;
+	border:1px solid silver;
+}
+/*招生广告*/
+.adstu{
+	height:195px;
+	width:126px;
+	float:left;
+	background:#7BF773;
+	margin:5px 0 0 5px;
+}
+
+/*运动广告*/
+.adsport{
+	height:195px;
+	width:451px;
+	float:left;
+	background:#7BF773;
+	margin:5px 0 0 15px;
+}
+/*房地产广告*/
+.ad-realestate{
+	height:195px;
+	width:151px;
+	float:left;
+	background:#7BF773;
+	margin:5px 0 0 8px;
+}
+/*图片广告*/
+.adpicture{
+	height:211px;
+	width:185px;
+	float:left;
+	/*background:#7BF773;*/
+	margin:0 0 0 8px;
+	text-align:center;
+	border-left:1px solid silver;
+}
+.adpicture img{
+	height:190px;
+	width:170px;
+	margin-top:8px;
+	
+}
+	
